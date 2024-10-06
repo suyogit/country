@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <nav>
+        <div class="nav-child">
+            <a href="index.html">
+                <h2 class="title">Where in the world?</h2>
+            </a>
+           
+            <h2 class="darkmode"> <i class="fa-regular fa-moon"></i>&nbsp; Dark mode</h2>
+        </div>
+    </nav>
+    <div class="middle">
+        <div class="search">
+            <div class="inputsearch">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Country .....">
+            </div>
+        </div>
+       
+            <select name="country" id="continent-names" class="filter">   
+                <option value="" hidden>Filter by region</option>
+                <option value="Africa">Africa</option>
+                <option value="America">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        
+    </div>
+    <main>
+
+        <div class="countries-container"></div>
+        <div class="country-cards">
+            <!-- <a href="">
+                <div class="card">
+                    <img src="https://www.backdropsource.ca/cdn/shop/products/Canada_Country_Flag.jpg?v=1586521988" alt="">
+                    <div class="content">
+                        <h2 class="country-name"><b>Germany</b></h3>
+                        <p>Population: 81,76,2330</p>
+                        <p>Region: Europe</p>
+                        <p>Capital: Berlin</p>
+                    </div>
+                </div>
+            </a> -->           
+        </div>
+    </main>
+
+</body>
+
+</html>
